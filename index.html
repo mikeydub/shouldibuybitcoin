@@ -28,6 +28,18 @@
             justify-content: center;
             align-items: center;
             font-size: 50vw;
+            -webkit-animation: glow 1s ease-in-out infinite alternate;
+            -moz-animation: glow 1s ease-in-out infinite alternate;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        @-webkit-keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+            }
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+            }
         }
 
         .by-line {
@@ -40,11 +52,13 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <div class="container">
-        YES
-    </div>
-    <div class="by-line">
-        <a href=https://twitter.com/mikeybitcoin>@mikeybitcoin</a>
+    <div>
+        <div class="container glow">
+            YES
+        </div>
+        <div class="by-line">
+            <a href=https://twitter.com/mikeybitcoin>@mikeybitcoin</a>
+        </div>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
