@@ -7,13 +7,15 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;    
-    font-size: 50vw;
+    
     /* -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate; */
 }
-
-.container:hover {
+.yes {
+    font-size: 50vw;
+}
+.yes:hover {
     color: yellow;
 }
 
